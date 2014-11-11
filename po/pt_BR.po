@@ -19,7 +19,7 @@ msgstr ""
 
 #. TRANS: "name" option from activity.info file
 msgid "TurtleBlocks"
-msgstr ""
+msgstr "TurtleBlocos"
 
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
@@ -27,31 +27,33 @@ msgid ""
 "A Logo-inspired turtle that draws colorful pictures with snap-together "
 "visual programming blocks"
 msgstr ""
+"Uma tartaruga inspirada na linguagem Logo que desenha figuras coloridas com "
+"blocos de programação visual"
 
 #: TurtleArt/tabasics.py:119
 #, fuzzy
 msgid "Palette of turtle commands"
-msgstr "paleta de comandos da tartaruga"
+msgstr "Paleta de comandos da tartaruga"
 
 #: TurtleArt/tabasics.py:124
 #: plugins/turtle_blocks_extras/turtle_blocks_extras.py:740
 #: plugins/turtle_blocks_extras/turtle_blocks_extras.py:751
 msgid "forward"
-msgstr "para frente"
+msgstr "parafrente"
 
 #: TurtleArt/tabasics.py:128
 #, fuzzy
 msgid "moves turtle forward"
-msgstr "mover a tartaruga para frente"
+msgstr "move a tartaruga para frente"
 
 #: TurtleArt/tabasics.py:135
 msgid "back"
-msgstr "voltar"
+msgstr "paratrás"
 
 #: TurtleArt/tabasics.py:139
 #, fuzzy
 msgid "moves turtle backward"
-msgstr "mover a tartaruga para trás"
+msgstr "move a tartaruga para trás"
 
 #: TurtleArt/tabasics.py:147
 msgid "clean"
@@ -60,27 +62,27 @@ msgstr "limpar"
 #: TurtleArt/tabasics.py:150
 #, fuzzy
 msgid "clears the screen and reset the turtle"
-msgstr "limpar a tela e inicializar a tartaruga"
+msgstr "limpar a tela e reinicializa a tartaruga"
 
 #: TurtleArt/tabasics.py:158
 #: plugins/turtle_blocks_extras/turtle_blocks_extras.py:871
 msgid "left"
-msgstr "esquerda"
+msgstr "paraesquerda"
 
 #: TurtleArt/tabasics.py:162
 #, fuzzy
 msgid "turns turtle counterclockwise (angle in degrees)"
-msgstr "virar a tartaruga no sentido anti-horário (ângulo em graus)"
+msgstr "vira a tartaruga no sentido anti-horário (ângulo em graus)"
 
 #: TurtleArt/tabasics.py:170
 #: plugins/turtle_blocks_extras/turtle_blocks_extras.py:895
 msgid "right"
-msgstr "direita"
+msgstr "paradireita"
 
 #: TurtleArt/tabasics.py:174
 #, fuzzy
 msgid "turns turtle clockwise (angle in degrees)"
-msgstr "virar a tartaruga no sentido horário (ângulo em graus)"
+msgstr "vira a tartaruga no sentido horário (ângulo em graus)"
 
 #: TurtleArt/tabasics.py:182
 msgid "arc"
@@ -97,11 +99,11 @@ msgstr "raio"
 #: TurtleArt/tabasics.py:186
 #, fuzzy
 msgid "moves turtle along an arc"
-msgstr "mover a tartaruga formando um arco"
+msgstr "move a tartaruga formando um arco"
 
 #: TurtleArt/tabasics.py:195 TurtleArt/tabasics.py:261
 msgid "set xy"
-msgstr "ajustar xy"
+msgstr "ajusta xy"
 
 #: TurtleArt/tabasics.py:195 TurtleArt/tabasics.py:261
 msgid "x"
@@ -116,8 +118,7 @@ msgstr "y"
 msgid ""
 "moves turtle to position xcor, ycor; (0, 0) is in the center of the screen."
 msgstr ""
-"mover a tartaruga para a posição xcor, ycor; (0, 0). Isto é o centro da "
-"tela."
+"move a tartaruga para a posição xcor, ycor; (0, 0) está no centro da tela."
 
 #
 #: TurtleArt/tabasics.py:209
@@ -127,7 +128,7 @@ msgstr "definir cabeçalho"
 #: TurtleArt/tabasics.py:213
 #, fuzzy
 msgid "sets the heading of the turtle (0 is towards the top of the screen.)"
-msgstr "definir a direção da tartaruga (0 é para a frente do topo da tela.)"
+msgstr "define a direção da tartaruga (0 é em direção ao topo da tela.)"
 
 #: TurtleArt/tabasics.py:221 TurtleArt/tawindow.py:4105
 msgid "xcor"
@@ -138,7 +139,7 @@ msgid ""
 "holds current x-coordinate value of the turtle (can be used in place of a "
 "number block)"
 msgstr ""
-"prender na atual coordenada x o valor da tartaruga (pode ser usado no lugar "
+"toma o valor atual da coordenada x da tartaruga (pode ser usado no lugar "
 "de um número de bloco)"
 
 #: TurtleArt/tabasics.py:232 TurtleArt/tawindow.py:4106
@@ -150,7 +151,7 @@ msgid ""
 "holds current y-coordinate value of the turtle (can be used in place of a "
 "number block)"
 msgstr ""
-"prender na atual coordenada y o valor da tartaruga (pode ser usado no lugar "
+"toma o valor atual da coordenada x da tartaruga (pode ser usado no lugar "
 "de um número de bloco)"
 
 # Ou cabeçalho
@@ -163,17 +164,17 @@ msgid ""
 "holds current heading value of the turtle (can be used in place of a number "
 "block)"
 msgstr ""
-"prender o valor da atual direção da tartaruga (pode ser usada no lugar de um "
-"número de bloco)"
+"toma o valor atual da direção da tartaruga (pode ser usado no lugar "
+"de um número de bloco)"
 
 #: TurtleArt/tabasics.py:278
 #, fuzzy
 msgid "Palette of pen commands"
-msgstr "paleta de comandos da caneta"
+msgstr "Paleta de comandos da caneta"
 
 #: TurtleArt/tabasics.py:283 TurtleArt/tabasics.py:294
 msgid "fill screen"
-msgstr "preencher tela"
+msgstr "preencher a tela"
 
 #: TurtleArt/tabasics.py:283 TurtleArt/tabasics.py:294
 #: TurtleArt/tabasics.py:344
@@ -190,49 +191,48 @@ msgstr "tonalidade"
 
 #: TurtleArt/tabasics.py:287 TurtleArt/tabasics.py:299
 msgid "fills the background with (color, shade)"
-msgstr "preenche o fundo (cor, formato)"
+msgstr "preenche o fundo (cor, tonalidade)"
 
 #: TurtleArt/tabasics.py:295 TurtleArt/tabasics.py:363
 #: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1194
 #: plugins/turtle_blocks_extras/turtle_blocks_extras.py:1199
 msgid "gray"
-msgstr ""
+msgstr "cinza"
 
 #: TurtleArt/tabasics.py:309
 msgid "set color"
-msgstr "ajustar cor"
+msgstr "define cor"
 
 #: TurtleArt/tabasics.py:313
 #, fuzzy
 msgid "sets color of the line drawn by the turtle"
-msgstr "definir a cor da linha desenhada pela tartaruga"
+msgstr "define a cor da linha desenhada pela tartaruga"
 
 #: TurtleArt/tabasics.py:321
 msgid "set shade"
-msgstr "ajustar sombra"
+msgstr "define tonalidade"
 
 #: TurtleArt/tabasics.py:325
 #, fuzzy
 msgid "sets shade of the line drawn by the turtle"
-msgstr "definir o formato da linha desenhada pela tartaruga"
+msgstr "define a tonalidade da linha desenhada pela tartaruga"
 
 #: TurtleArt/tabasics.py:333
 msgid "set gray"
-msgstr ""
+msgstr "define cinza"
 
 #: TurtleArt/tabasics.py:336
 #, fuzzy
 msgid "sets gray level of the line drawn by the turtle"
-msgstr "definir o formato da linha desenhada pela tartaruga"
+msgstr "define o nível de cinza da linha desenhada pela tartaruga"
 
 #: TurtleArt/tabasics.py:345
 msgid "holds current pen color (can be used in place of a number block)"
-msgstr ""
-"fixa a cor atual da caneta (pode ser usado no lugar de um bloco numérico)"
+msgstr "toma a cor atual da caneta (pode ser usado no lugar de um bloco numérico)"
 
 #: TurtleArt/tabasics.py:355
 msgid "holds current pen shade"
-msgstr ""
+msgstr "toma a tonalidade corrente da caneta"
 
 #: TurtleArt/tabasics.py:364
 #, fuzzy
